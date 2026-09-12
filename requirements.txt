@@ -1,0 +1,5 @@
+google-genai
+pydantic
+pandas
+scikit-learn
+python-dotenv

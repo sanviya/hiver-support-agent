@@ -1,0 +1,8 @@
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Ignore large raw datasets
+data/twcs.csv
+data/apple_support_pairs.csv
