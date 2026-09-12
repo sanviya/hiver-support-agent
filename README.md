@@ -93,7 +93,7 @@ The evaluation harness evaluates against a curated golden benchmark (`data/golde
    - `BILLING_STORE` (30 rows)
 2. **Adversarial Edge-Case Injection:** 20% of the sample was deliberately populated with edge cases:
    - Passive-aggressive or sarcastic phrasing lacking explicit profanity (*"Thanks for nothing @AppleSupport, third time this week"*).
-   - Single-word or link-only tweets (*"6S"*, *"What's going on here? https://t.co/..."*).
+   - Single-word or link-only tweets (*"6S"*, *`"What's going on here? https://t.co/..."`*).
    - Overlapping hardware/software boundary cases (touchscreen freezes immediately following an iOS update).
 3. **Labeling Protocol & Human Verification:** Each example was hand-annotated with:
    - `gold_intent`: Ground-truth business category.
